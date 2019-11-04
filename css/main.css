@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font: normal 100%/1.5 "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -23,26 +23,28 @@ body {
 }
 
 .banner-content {
-  padding: .2rem 1rem;
-  width: 50em;
+  padding: 0 1.5rem;
+  max-width: 50em;
+  width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: 1.5rem;
   left: 50%;
   transform: translateX(-50%);
-  line-height: 1.5;
-  margin-top: auto;
 }
 
-h1 {
+h2 {
   font-size: 4rem;
-  font-weight: bold;
-  display: inline;
-  color: #fff;
-  background-color: rgba(0, 0, 0, .5);
   line-height: 1.4;
+  margin: 0 0 1rem;
 }
 
 p {
   font-size: 2rem;
   font-style: italic;
+  margin: 0;
+}
+
+span {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
 }
